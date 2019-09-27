@@ -5,6 +5,7 @@ import './Login.scss';
 
 // Components
 import FormInput from '../form-input/FormInput';
+import Button from '../button/Button';
 
 class Login extends React.Component {
   constructor(props) {
@@ -53,7 +54,7 @@ class Login extends React.Component {
             handleChange={this.handleChange}
             required
           />
-          <input type="submit" value="Login" />
+          <Button type="submit">Login</Button>
         </form>
       </div>
     );
